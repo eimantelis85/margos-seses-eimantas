@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #434442;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Playfair Display", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+.section {
+  margin-bottom: 9.6rem;
+}
+.container {
+  max-width: 114rem;
+  margin: auto;
+  padding: 0 3.2rem;
+}
+.price-container {
+  max-width: 60rem;
+  border-top: 3px solid #f1f3ed;
+  border-bottom: 3px solid #f1f3ed;
+  margin: auto;
+}
+.container-wide {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 3.2rem;
+}
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+.grid--2-cols {
+  grid-template-columns: 1.05fr 1fr;
+}
+.grid--3-cols {
+  grid-template-columns: 1fr 1.9fr 1fr;
+}
+.grid--8-cols {
+  grid-template-columns: repeat(8, 1fr);
+}
+.grid--center-v {
+  align-items: center;
+}
+.grid--center-h {
+  justify-items: center;
+}
+.heading-secondary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.heading-tertiary {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+.paragraph-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
